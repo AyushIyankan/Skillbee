@@ -5,158 +5,20 @@ const { describe, it } = require("node:test");
 const { readdir } = require("fs/promises");
 const { expect } = require("chai");
 
-//Calculate directory size (number of static pages present)
 //If number of static pages not equal to 10 generate till it reaches 10
 let requiredPages = 10;
-
-const dirSize = async (directory) => {
-  const files = await readdir(directory);
-  return files.length;
-};
-
-(async () => {
-  const size = await dirSize("./src/pages");
-  numberOfPages = size;
-  console.log(size);
-})().then(() => {
-  gotNumberOfPages = true;
-});
 
 //API URL
 const apiUrl = "https://www.boredapi.com/api/activity";
 
-// Define a function to get the data from the API
+// Function to get the data from the API
 async function getDataFromApi() {
   const response = await axios.get(apiUrl);
   return response.data;
 }
 
 // EJS template
-const template = `
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Statiic web page generated using script">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="../styles/page.css" />
-    <title><%= activity %></title>
-  </head>
-  <body>
-    <div class="activity__container">
-        <div class="activity__container__left">
-            <div class="activity__container__main">
-                <div class="activity__key">
-                    <p><%= key %></p>
-                </div>
-                <div class="activity__header">
-                    <div class="title__subtitle__flex">
-                        <div class="activity__title">
-                            <h2><%= activity %></h2>
-                        </div>
-                        <div class="activity__subtitle">
-                            <p>Outdoor & Sporting Goods Company</p>
-                        </div>
-                    </div>
-                    <div class="button__sub__flex">
-                        <div class="explore-more">
-                            <button>
-                                <div class="explore-more__text">
-                                    <p>EXPLORE MORE</p>
-                                </div>
-                                <div class="explore-more__arrow">
-                                   <img
-                                      src="../assets/images/arrow-icon.png"
-                                      srcset="../assets/images/arrow-icon.png 1x, ../assets/images/arrow-icon-low.png 2x"
-                                      alt="arrow icon"
-                                    />
-                                </div>
-                            </button>
-                        </div>
-                        <div class="sub-description__text">
-                          <p>We have more special goods for you 🚀</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-outlet__flex">
-                    <div class="product-count__flex">
-                        <div class="more-than">
-                          <p>More than</p>
-                        </div>
-                        <div class="product-count">
-                          <h2>50+</h2>
-                        </div>
-                        <div class="product-genre">
-                          <p>adventure product</p>
-                        </div>
-                    </div>
-                    <div class="outlet-count__flex">
-                        <div class="more-than">
-                            <p>More than</p>
-                        </div>
-                        <div class="product-count">
-                            <h2>75+</h2>
-                        </div>
-                        <div class="outlet-country">
-                          <p>OUTLET IN INDONESIA</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="activity__container__footer">
-          <div class="content__flex">
-            <div class="accessibility__flex">
-              <div class="accessibility__icon">
-                <img src="../assets/images/accessibility-icon.png" alt="" />
-              </div>
-              <div class="accessibility__text__flex">
-                <div class="accessibility__title">
-                  <p>accessibility</p>
-                </div>
-                <div class="accessibility__value">
-                  <p><%= accessibility %></p>
-                </div>
-              </div>
-            </div>
-            <div class="type__flex">
-              <div class="type__icon">
-                <img src="../assets/images/type-icon.png" alt="" />
-              </div>
-              <div class="type__text__flex">
-                <div class="type__title">
-                  <p>type</p>
-                </div>
-                <div class="type__value">
-                  <p><%= type %></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        </div>
-        <div class="activity__container__right">
-            <div class="activity__container__right__header">
-                <div class="price__title">
-                  <p>Price</p>
-                </div>
-                <div class="price__value">
-                  <p><%= price %></h4>
-                </div>
-            </div>
-        <div class="active__container__right__image">
-          <img
-            src="../assets/images/activity-container-right-footer.webp"
-            alt="Activity container right image"
-          />
-        </div>
-        </div>
-    </div>
-  </body>
-</html>
-`;
+const template = fs.readFileSync("src/views/template.ejs", "utf-8");
 
 // Function to generate the HTML for a page
 function generateHtml(
@@ -207,9 +69,10 @@ function writePageToFile(
 
 // Generate pages
 let iterator = 0;
-while (iterator < requiredPages) {
-  // We need only 10 files at a time
+let fileIndex = 1;
 
+// We need only 10 files at a time
+while (iterator < requiredPages) {
   // Get data from api, write one by one onto template
   getDataFromApi().then((data) => {
     // Properties
@@ -221,7 +84,7 @@ while (iterator < requiredPages) {
     const link = activityData.link;
     const key = activityData.key;
     const accessibility = activityData.accessibility;
-    const filename = `page-${activity.toLowerCase().split(" ").join("-")}.html`;
+    const filename = `website-${fileIndex++}.html`;
 
     // Write page from template onto '../src/pages'
     try {
