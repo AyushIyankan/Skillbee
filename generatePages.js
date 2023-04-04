@@ -38,7 +38,10 @@ const template = `
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-       <meta name="description" content="Statiic web page generated using script">
+    <meta name="description" content="Statiic web page generated using script">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="../styles/page.css" />
     <title><%= activity %></title>
   </head>
@@ -66,27 +69,28 @@ const template = `
                                 </div>
                                 <div class="explore-more__arrow">
                                    <img
-                      src="../assets/images/arrow-icon.png"
-                      alt="arrow icon"
-                    />
+                                      src="../assets/images/arrow-icon.png"
+                                      srcset="../assets/images/arrow-icon.png 1x, ../assets/images/arrow-icon-low.png 2x"
+                                      alt="arrow icon"
+                                    />
                                 </div>
                             </button>
                         </div>
                         <div class="sub-description__text">
-                            <p>We have more special goods for you 🚀</p>
+                          <p>We have more special goods for you 🚀</p>
                         </div>
                     </div>
                 </div>
                 <div class="product-outlet__flex">
                     <div class="product-count__flex">
                         <div class="more-than">
-                            <p>More than</p>
+                          <p>More than</p>
                         </div>
                         <div class="product-count">
-                            <h2>50+</h2>
+                          <h2>50+</h2>
                         </div>
                         <div class="product-genre">
-                            <p>adventure product</p>
+                          <p>adventure product</p>
                         </div>
                     </div>
                     <div class="outlet-count__flex">
@@ -97,7 +101,7 @@ const template = `
                             <h2>75+</h2>
                         </div>
                         <div class="outlet-country">
-                            <p>OUTLET IN INDONESIA</p>
+                          <p>OUTLET IN INDONESIA</p>
                         </div>
                     </div>
                 </div>
@@ -113,8 +117,7 @@ const template = `
                   <p>accessibility</p>
                 </div>
                 <div class="accessibility__value">
-                                             <p><%= accessibility %></p>
-
+                  <p><%= accessibility %></p>
                 </div>
               </div>
             </div>
@@ -137,10 +140,10 @@ const template = `
         <div class="activity__container__right">
             <div class="activity__container__right__header">
                 <div class="price__title">
-                    <p>Price</p>
+                  <p>Price</p>
                 </div>
                 <div class="price__value">
-                    <p><%= price %></h4>
+                  <p><%= price %></h4>
                 </div>
             </div>
         <div class="active__container__right__image">

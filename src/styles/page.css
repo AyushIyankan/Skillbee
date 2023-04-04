@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap");
 html {
   font-size: 62.5%; }
 
@@ -197,7 +196,9 @@ body {
                 display: flex;
                 flex-direction: column;
                 justify-content: flex-start;
-                align-items: flex-start; }
+                align-items: flex-start;
+                width: auto;
+                height: auto; }
                 .activity__container .activity__container__left .activity__container__main .activity__header .button__sub__flex .explore-more button .explore-more__arrow img {
                   width: 100%;
                   height: auto; }
