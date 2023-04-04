@@ -33,7 +33,7 @@ body {
         gap: 6rem; } }
     @media screen and (max-width: 768px) {
       .activity__container .activity__container__left {
-        width: 100%; } }
+        width: 100vw; } }
     .activity__container .activity__container__left .activity__container__main {
       display: flex;
       flex-direction: column;
@@ -431,10 +431,11 @@ body {
           padding: 4rem 6rem; } }
       @media screen and (max-width: 768px) {
         .activity__container .activity__container__left .activity__container__footer {
-          padding: 3rem 4rem; } }
+          padding: 3rem 0rem; } }
       @media screen and (max-width: 400px) {
         .activity__container .activity__container__left .activity__container__footer {
-          padding: 2.6rem 2rem; } }
+          padding: 2.6rem 0rem;
+          width: 100vw; } }
       .activity__container .activity__container__left .activity__container__footer .content__flex {
         display: flex;
         flex-direction: row;
@@ -450,9 +451,13 @@ body {
             flex-direction: column;
             align-items: flex-start;
             gap: 2rem; } }
+        @media screen and (max-width: 768px) {
+          .activity__container .activity__container__left .activity__container__footer .content__flex {
+            padding-left: 4rem; } }
         @media screen and (max-width: 400px) {
           .activity__container .activity__container__left .activity__container__footer .content__flex {
-            gap: 1.8rem; } }
+            gap: 1.8rem;
+            padding-left: 2rem; } }
         .activity__container .activity__container__left .activity__container__footer .content__flex .accessibility__flex {
           display: flex;
           flex-direction: row;
@@ -462,7 +467,9 @@ body {
               gap: 0rem; } }
           .activity__container .activity__container__left .activity__container__footer .content__flex .accessibility__flex .accessibility__icon {
             display: flex;
-            flex-direction: column; }
+            flex-direction: column;
+            max-width: 8.4rem;
+            max-height: 8.4rem; }
             .activity__container .activity__container__left .activity__container__footer .content__flex .accessibility__flex .accessibility__icon img {
               width: 100%;
               height: auto; }

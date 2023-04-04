@@ -246,7 +246,17 @@ while (iterator < requiredPages) {
 
 // Function to test page generation
 async function checkRequiredPagesGenerated() {
-  let report = iterator >= 10 ? true : false;
+  let report = iterator === 10 ? true : false;
+  return report;
+}
+
+async function checkMoreRequiredPagesGenerated() {
+  let report = iterator > 10 ? true : false;
+  return report;
+}
+
+async function checkLessRequiredPagesGenerated() {
+  let report = iterator < 10 ? true : false;
   return report;
 }
 
@@ -255,5 +265,15 @@ describe("PageGenerated Test", () => {
   it(`Should generate ${requiredPages} pages.`, async () => {
     const report = await checkRequiredPagesGenerated();
     expect(report).to.equal(true);
+  });
+
+  it(`Should not generate more than ${requiredPages} pages.`, async () => {
+    const reportMore = await checkMoreRequiredPagesGenerated();
+    expect(reportMore).to.equal(false);
+  });
+
+  it(`Should not generate less than ${requiredPages} pages.`, async () => {
+    const reportLess = await checkLessRequiredPagesGenerated();
+    expect(reportLess).to.equal(false);
   });
 });
