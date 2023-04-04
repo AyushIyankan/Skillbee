@@ -34,9 +34,11 @@ async function getDataFromApi() {
 // EJS template
 const template = `
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+       <meta name="description" content="Statiic web page generated using script">
     <link rel="stylesheet" href="../styles/page.css" />
     <title><%= activity %></title>
   </head>
@@ -53,7 +55,7 @@ const template = `
                             <h2><%= activity %></h2>
                         </div>
                         <div class="activity__subtitle">
-                            <h4>Outdoor & Sporting Goods Company</h4>
+                            <p>Outdoor & Sporting Goods Company</p>
                         </div>
                     </div>
                     <div class="button__sub__flex">
@@ -63,7 +65,10 @@ const template = `
                                     <p>EXPLORE MORE</p>
                                 </div>
                                 <div class="explore-more__arrow">
-                                    <i class="fa-light fa-arrow-right-long"></i>
+                                   <img
+                      src="../assets/images/arrow-icon.png"
+                      alt="arrow icon"
+                    />
                                 </div>
                             </button>
                         </div>
@@ -81,7 +86,7 @@ const template = `
                             <h2>50+</h2>
                         </div>
                         <div class="product-genre">
-                            <h4>adventure product</h4>
+                            <p>adventure product</p>
                         </div>
                     </div>
                     <div class="outlet-count__flex">
@@ -92,7 +97,7 @@ const template = `
                             <h2>75+</h2>
                         </div>
                         <div class="outlet-country">
-                            <h4>OUTLET IN INDONESIA</h4>
+                            <p>OUTLET IN INDONESIA</p>
                         </div>
                     </div>
                 </div>
@@ -108,7 +113,7 @@ const template = `
                   <p>accessibility</p>
                 </div>
                 <div class="accessibility__value">
-                                             <h4><%= accessibility %></h4>
+                                             <p><%= accessibility %></p>
 
                 </div>
               </div>
@@ -122,7 +127,7 @@ const template = `
                   <p>type</p>
                 </div>
                 <div class="type__value">
-                  <h4><%= type %></h4>
+                  <p><%= type %></p>
                 </div>
               </div>
             </div>
@@ -132,15 +137,15 @@ const template = `
         <div class="activity__container__right">
             <div class="activity__container__right__header">
                 <div class="price__title">
-                    <h4>Price</h4>
+                    <p>Price</p>
                 </div>
                 <div class="price__value">
-                    <h4><%= price %></h4>
+                    <p><%= price %></h4>
                 </div>
             </div>
         <div class="active__container__right__image">
           <img
-            src="../assets/images/activity-container-right-footer.png"
+            src="../assets/images/activity-container-right-footer.webp"
             alt="Activity container right image"
           />
         </div>
