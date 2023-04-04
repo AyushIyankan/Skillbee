@@ -25,12 +25,12 @@ https://ayushiyankan.github.io/Skillbee/src/pages/<website-[{1 - 10}]>.html
 
 Hosted Links:<br>
 [Link website-1](https://ayushiyankan.github.io/Skillbee/src/pages/website-1.html)<br>
-[Link website-2](https://ayushiyankan.github.io/Skillbee/src/pages/website-1.html)<br>
-[Link website-3](https://ayushiyankan.github.io/Skillbee/src/pages/website-1.html)<br>
-[Link website-4](https://ayushiyankan.github.io/Skillbee/src/pages/website-1.html)<br>
-[Link website-5](https://ayushiyankan.github.io/Skillbee/src/pages/website-1.html)<br>
-[Link website-6](https://ayushiyankan.github.io/Skillbee/src/pages/website-1.html)<br>
-[Link website-7](https://ayushiyankan.github.io/Skillbee/src/pages/website-1.html)<br>
-[Link website-8](https://ayushiyankan.github.io/Skillbee/src/pages/website-1.html)<br>
-[Link website-9](https://ayushiyankan.github.io/Skillbee/src/pages/website-1.html)<br>
-[Link website-10](https://ayushiyankan.github.io/Skillbee/src/pages/website-1.html)<br>
+[Link website-2](https://ayushiyankan.github.io/Skillbee/src/pages/website-2.html)<br>
+[Link website-3](https://ayushiyankan.github.io/Skillbee/src/pages/website-3.html)<br>
+[Link website-4](https://ayushiyankan.github.io/Skillbee/src/pages/website-4.html)<br>
+[Link website-5](https://ayushiyankan.github.io/Skillbee/src/pages/website-5.html)<br>
+[Link website-6](https://ayushiyankan.github.io/Skillbee/src/pages/website-6.html)<br>
+[Link website-7](https://ayushiyankan.github.io/Skillbee/src/pages/website-7.html)<br>
+[Link website-8](https://ayushiyankan.github.io/Skillbee/src/pages/website-8.html)<br>
+[Link website-9](https://ayushiyankan.github.io/Skillbee/src/pages/website-9.html)<br>
+[Link website-10](https://ayushiyankan.github.io/Skillbee/src/pages/website-10.html)<br>
