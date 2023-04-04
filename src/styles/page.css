@@ -1,0 +1,1756 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap");
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.activity__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 100vw;
+}
+@media screen and (max-width: 768px) {
+  .activity__container {
+    flex-direction: column;
+  }
+}
+.activity__container .activity__container__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 19rem;
+  width: 50%;
+}
+@media screen and (max-width: 1440px) {
+  .activity__container .activity__container__left {
+    gap: 16rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .activity__container .activity__container__left {
+    gap: 6rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .activity__container .activity__container__left {
+    width: 100%;
+  }
+}
+.activity__container .activity__container__left .activity__container__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 86.3%;
+  margin: 7.2rem 0rem 0rem 8rem;
+}
+@media screen and (max-width: 1440px) {
+  .activity__container .activity__container__left .activity__container__main {
+    margin: 6.4rem 0rem 0rem 7.2rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .activity__container .activity__container__left .activity__container__main {
+    margin: 6rem 0rem 0rem 6.6rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .activity__container .activity__container__left .activity__container__main {
+    margin: 4rem 0rem 0rem 4rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .activity__container .activity__container__left .activity__container__main {
+    margin: 3.2rem 0rem 0rem 2rem;
+  }
+}
+.activity__container
+  .activity__container__left
+  .activity__container__main
+  .activity__key {
+  display: flex;
+}
+.activity__container
+  .activity__container__left
+  .activity__container__main
+  .activity__key
+  p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  text-transform: uppercase;
+  color: #2b2b35;
+}
+@media screen and (max-width: 1440px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .activity__key
+    p {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .activity__key
+    p {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .activity__key
+    p {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+  }
+}
+.activity__container
+  .activity__container__left
+  .activity__container__main
+  .activity__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.activity__container
+  .activity__container__left
+  .activity__container__main
+  .activity__header
+  .title__subtitle__flex {
+  display: flex;
+  flex-direction: column;
+}
+.activity__container
+  .activity__container__left
+  .activity__container__main
+  .activity__header
+  .title__subtitle__flex
+  .activity__title {
+  display: flex;
+}
+.activity__container
+  .activity__container__left
+  .activity__container__main
+  .activity__header
+  .title__subtitle__flex
+  .activity__title
+  h2 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 7.2rem;
+  line-height: 9rem;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #2b2b35;
+}
+@media screen and (max-width: 1440px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .activity__header
+    .title__subtitle__flex
+    .activity__title
+    h2 {
+    font-size: 6.4rem;
+    line-height: 8rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .activity__header
+    .title__subtitle__flex
+    .activity__title
+    h2 {
+    font-size: 5.5rem;
+    line-height: 6.4rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .activity__header
+    .title__subtitle__flex
+    .activity__title
+    h2 {
+    font-size: 5rem;
+    line-height: 5.7rem;
+    margin-top: -0.5rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .activity__header
+    .title__subtitle__flex
+    .activity__title
+    h2 {
+    font-size: 4rem;
+    line-height: 4.5rem;
+    margin-top: -0.5rem;
+  }
+}
+.activity__container
+  .activity__container__left
+  .activity__container__main
+  .activity__header
+  .title__subtitle__flex
+  .activity__subtitle {
+  display: flex;
+}
+.activity__container
+  .activity__container__left
+  .activity__container__main
+  .activity__header
+  .title__subtitle__flex
+  .activity__subtitle
+  h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #2b2b35;
+}
+@media screen and (max-width: 1440px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .activity__header
+    .title__subtitle__flex
+    .activity__subtitle
+    h4 {
+    font-size: 2.16rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .activity__header
+    .title__subtitle__flex
+    .activity__subtitle
+    h4 {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .activity__header
+    .title__subtitle__flex
+    .activity__subtitle
+    h4 {
+    font-size: 1.6rem;
+    margin-top: -0.5rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .activity__header
+    .title__subtitle__flex
+    .activity__subtitle
+    h4 {
+    font-size: 1.5rem;
+    margin-top: -0.5rem;
+  }
+}
+.activity__container
+  .activity__container__left
+  .activity__container__main
+  .activity__header
+  .button__sub__flex {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+@media screen and (max-width: 1440px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .activity__header
+    .button__sub__flex {
+    margin-top: 3.6rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .activity__header
+    .button__sub__flex {
+    margin-top: 3.2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .activity__header
+    .button__sub__flex {
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .activity__header
+    .button__sub__flex {
+    margin-top: 0rem;
+  }
+}
+.activity__container
+  .activity__container__left
+  .activity__container__main
+  .activity__header
+  .button__sub__flex
+  .explore-more {
+  display: flex;
+}
+.activity__container
+  .activity__container__left
+  .activity__container__main
+  .activity__header
+  .button__sub__flex
+  .explore-more
+  button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  background: #d93a31;
+  border: none;
+  gap: 2.4rem;
+}
+@media screen and (max-width: 1440px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .activity__header
+    .button__sub__flex
+    .explore-more
+    button {
+    padding: 1.3rem 2.6rem;
+    gap: 2.1rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .activity__header
+    .button__sub__flex
+    .explore-more
+    button {
+    padding: 0.8rem 1.6rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .activity__header
+    .button__sub__flex
+    .explore-more
+    button {
+    padding: 0.7rem 1.4rem;
+    gap: 1.8rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .activity__header
+    .button__sub__flex
+    .explore-more
+    button {
+    padding: 0.5rem 1rem;
+    gap: 1.8rem;
+  }
+}
+.activity__container
+  .activity__container__left
+  .activity__container__main
+  .activity__header
+  .button__sub__flex
+  .explore-more
+  button
+  .explore-more__text {
+  display: flex;
+}
+.activity__container
+  .activity__container__left
+  .activity__container__main
+  .activity__header
+  .button__sub__flex
+  .explore-more
+  button
+  .explore-more__text
+  p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+@media screen and (max-width: 1440px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .activity__header
+    .button__sub__flex
+    .explore-more
+    button
+    .explore-more__text
+    p {
+    font-size: 1.32rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .activity__header
+    .button__sub__flex
+    .explore-more
+    button
+    .explore-more__text
+    p {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .activity__header
+    .button__sub__flex
+    .explore-more
+    button
+    .explore-more__text
+    p {
+    font-size: 1.2rem;
+  }
+}
+.activity__container
+  .activity__container__left
+  .activity__container__main
+  .activity__header
+  .button__sub__flex
+  .explore-more
+  button
+  .explore-more__arrow {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.activity__container
+  .activity__container__left
+  .activity__container__main
+  .activity__header
+  .button__sub__flex
+  .explore-more
+  button
+  .explore-more__arrow
+  img {
+  width: 100%;
+}
+@media screen and (max-width: 1440px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .activity__header
+    .button__sub__flex
+    .explore-more
+    button
+    .explore-more__arrow
+    img {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .activity__header
+    .button__sub__flex
+    .explore-more
+    button
+    .explore-more__arrow
+    img {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .activity__header
+    .button__sub__flex
+    .explore-more
+    button
+    .explore-more__arrow
+    img {
+    width: 70%;
+  }
+}
+.activity__container
+  .activity__container__left
+  .activity__container__main
+  .activity__header
+  .button__sub__flex
+  .sub-description__text {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .activity__header
+    .button__sub__flex
+    .sub-description__text {
+    margin-top: -0.4rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .activity__header
+    .button__sub__flex
+    .sub-description__text {
+    margin-top: -0.7rem;
+  }
+}
+.activity__container
+  .activity__container__left
+  .activity__container__main
+  .activity__header
+  .button__sub__flex
+  .sub-description__text
+  p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  display: flex;
+  align-items: center;
+  color: #2b2b35;
+}
+@media screen and (max-width: 1440px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .activity__header
+    .button__sub__flex
+    .sub-description__text
+    p {
+    font-size: 1.7rem;
+    line-height: 2.85rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .activity__header
+    .button__sub__flex
+    .sub-description__text
+    p {
+    font-size: 1.5rem;
+    line-height: 2.55rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .activity__header
+    .button__sub__flex
+    .sub-description__text
+    p {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .activity__header
+    .button__sub__flex
+    .sub-description__text
+    p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+}
+.activity__container
+  .activity__container__left
+  .activity__container__main
+  .product-outlet__flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 9rem;
+  margin-top: 4.8rem;
+}
+@media screen and (max-width: 400px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .product-outlet__flex {
+    align-items: flex-start;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .product-outlet__flex {
+    gap: 8.1rem;
+    margin-top: 4.4rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .product-outlet__flex {
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 4rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .product-outlet__flex {
+    gap: 0rem;
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .product-outlet__flex {
+    gap: 0rem;
+    margin-top: 1rem;
+  }
+}
+.activity__container
+  .activity__container__left
+  .activity__container__main
+  .product-outlet__flex
+  .product-count__flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.activity__container
+  .activity__container__left
+  .activity__container__main
+  .product-outlet__flex
+  .product-count__flex
+  .more-than {
+  display: flex;
+}
+.activity__container
+  .activity__container__left
+  .activity__container__main
+  .product-outlet__flex
+  .product-count__flex
+  .more-than
+  p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #2b2b35;
+}
+@media screen and (max-width: 992px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .product-outlet__flex
+    .product-count__flex
+    .more-than
+    p {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .product-outlet__flex
+    .product-count__flex
+    .more-than
+    p {
+    font-size: 1.2rem;
+  }
+}
+.activity__container
+  .activity__container__left
+  .activity__container__main
+  .product-outlet__flex
+  .product-count__flex
+  .product-count {
+  display: flex;
+  margin-top: -3rem;
+}
+@media screen and (max-width: 992px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .product-outlet__flex
+    .product-count__flex
+    .product-count {
+    margin-top: -3.5rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .product-outlet__flex
+    .product-count__flex
+    .product-count {
+    margin-top: -3rem;
+  }
+}
+.activity__container
+  .activity__container__left
+  .activity__container__main
+  .product-outlet__flex
+  .product-count__flex
+  .product-count
+  h2 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 8rem;
+  line-height: 0rem;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #2b2b35;
+}
+@media screen and (max-width: 1440px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .product-outlet__flex
+    .product-count__flex
+    .product-count
+    h2 {
+    font-size: 7.2rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .product-outlet__flex
+    .product-count__flex
+    .product-count
+    h2 {
+    font-size: 6.4rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .product-outlet__flex
+    .product-count__flex
+    .product-count
+    h2 {
+    font-size: 6rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .product-outlet__flex
+    .product-count__flex
+    .product-count
+    h2 {
+    font-size: 5rem;
+  }
+}
+.activity__container
+  .activity__container__left
+  .activity__container__main
+  .product-outlet__flex
+  .product-count__flex
+  .product-genre {
+  display: flex;
+  margin-top: -3.5rem;
+}
+@media screen and (max-width: 992px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .product-outlet__flex
+    .product-count__flex
+    .product-genre {
+    margin-top: -3.7rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .product-outlet__flex
+    .product-count__flex
+    .product-genre {
+    margin-top: -3.1rem;
+  }
+}
+.activity__container
+  .activity__container__left
+  .activity__container__main
+  .product-outlet__flex
+  .product-count__flex
+  .product-genre
+  h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #2b2b35;
+}
+@media screen and (max-width: 1440px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .product-outlet__flex
+    .product-count__flex
+    .product-genre
+    h4 {
+    font-size: 1.35rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .product-outlet__flex
+    .product-count__flex
+    .product-genre
+    h4 {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .product-outlet__flex
+    .product-count__flex
+    .product-genre
+    h4 {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .product-outlet__flex
+    .product-count__flex
+    .product-genre
+    h4 {
+    font-size: 1.1rem;
+  }
+}
+.activity__container
+  .activity__container__left
+  .activity__container__main
+  .product-outlet__flex
+  .outlet-count__flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.activity__container
+  .activity__container__left
+  .activity__container__main
+  .product-outlet__flex
+  .outlet-count__flex
+  .more-than {
+  display: flex;
+}
+.activity__container
+  .activity__container__left
+  .activity__container__main
+  .product-outlet__flex
+  .outlet-count__flex
+  .more-than
+  p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #2b2b35;
+}
+@media screen and (max-width: 992px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .product-outlet__flex
+    .outlet-count__flex
+    .more-than
+    p {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .product-outlet__flex
+    .outlet-count__flex
+    .more-than
+    p {
+    font-size: 1.2rem;
+  }
+}
+.activity__container
+  .activity__container__left
+  .activity__container__main
+  .product-outlet__flex
+  .outlet-count__flex
+  .product-count {
+  display: flex;
+  margin-top: -3rem;
+}
+@media screen and (max-width: 992px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .product-outlet__flex
+    .outlet-count__flex
+    .product-count {
+    margin-top: -3.5rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .product-outlet__flex
+    .outlet-count__flex
+    .product-count {
+    margin-top: -3rem;
+  }
+}
+.activity__container
+  .activity__container__left
+  .activity__container__main
+  .product-outlet__flex
+  .outlet-count__flex
+  .product-count
+  h2 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 8rem;
+  line-height: 0rem;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #2b2b35;
+}
+@media screen and (max-width: 1440px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .product-outlet__flex
+    .outlet-count__flex
+    .product-count
+    h2 {
+    font-size: 7.2rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .product-outlet__flex
+    .outlet-count__flex
+    .product-count
+    h2 {
+    font-size: 6.4rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .product-outlet__flex
+    .outlet-count__flex
+    .product-count
+    h2 {
+    font-size: 6rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .product-outlet__flex
+    .outlet-count__flex
+    .product-count
+    h2 {
+    font-size: 5rem;
+  }
+}
+.activity__container
+  .activity__container__left
+  .activity__container__main
+  .product-outlet__flex
+  .outlet-count__flex
+  .outlet-country {
+  display: flex;
+  margin-top: -3.5rem;
+}
+@media screen and (max-width: 992px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .product-outlet__flex
+    .outlet-count__flex
+    .outlet-country {
+    margin-top: -3.7rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .product-outlet__flex
+    .outlet-count__flex
+    .outlet-country {
+    margin-top: -3.1rem;
+  }
+}
+.activity__container
+  .activity__container__left
+  .activity__container__main
+  .product-outlet__flex
+  .outlet-count__flex
+  .outlet-country
+  h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #2b2b35;
+}
+@media screen and (max-width: 1440px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .product-outlet__flex
+    .outlet-count__flex
+    .outlet-country
+    h4 {
+    font-size: 1.35rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .product-outlet__flex
+    .outlet-count__flex
+    .outlet-country
+    h4 {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__main
+    .product-outlet__flex
+    .outlet-count__flex
+    .outlet-country
+    h4 {
+    font-size: 1.1rem;
+  }
+}
+.activity__container .activity__container__left .activity__container__footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 4.8rem 8rem;
+  background: #2b2b35;
+}
+@media screen and (max-width: 1440px) {
+  .activity__container .activity__container__left .activity__container__footer {
+    padding: 4.4rem 7.2rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .activity__container .activity__container__left .activity__container__footer {
+    padding: 4rem 6rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .activity__container .activity__container__left .activity__container__footer {
+    padding: 3rem 4rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .activity__container .activity__container__left .activity__container__footer {
+    padding: 2.6rem 2rem;
+  }
+}
+.activity__container
+  .activity__container__left
+  .activity__container__footer
+  .content__flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 58rem;
+}
+@media screen and (max-width: 1440px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__footer
+    .content__flex {
+    max-width: auto;
+  }
+}
+@media screen and (max-width: 992px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__footer
+    .content__flex {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__footer
+    .content__flex {
+    gap: 1.8rem;
+  }
+}
+.activity__container
+  .activity__container__left
+  .activity__container__footer
+  .content__flex
+  .accessibility__flex {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+@media screen and (max-width: 1440px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__footer
+    .content__flex
+    .accessibility__flex {
+    gap: 0rem;
+  }
+}
+.activity__container
+  .activity__container__left
+  .activity__container__footer
+  .content__flex
+  .accessibility__flex
+  .accessibility__icon {
+  display: flex;
+  flex-direction: column;
+}
+.activity__container
+  .activity__container__left
+  .activity__container__footer
+  .content__flex
+  .accessibility__flex
+  .accessibility__icon
+  img {
+  width: 100%;
+}
+@media screen and (max-width: 1440px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__footer
+    .content__flex
+    .accessibility__flex
+    .accessibility__icon
+    img {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__footer
+    .content__flex
+    .accessibility__flex
+    .accessibility__icon
+    img {
+    width: 70%;
+  }
+}
+.activity__container
+  .activity__container__left
+  .activity__container__footer
+  .content__flex
+  .accessibility__flex
+  .accessibility__text__flex {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+.activity__container
+  .activity__container__left
+  .activity__container__footer
+  .content__flex
+  .accessibility__flex
+  .accessibility__text__flex
+  .accessibility__title {
+  display: flex;
+}
+.activity__container
+  .activity__container__left
+  .activity__container__footer
+  .content__flex
+  .accessibility__flex
+  .accessibility__text__flex
+  .accessibility__title
+  p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 0rem;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #b5b5c2;
+}
+@media screen and (max-width: 1440px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__footer
+    .content__flex
+    .accessibility__flex
+    .accessibility__text__flex
+    .accessibility__title
+    p {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__footer
+    .content__flex
+    .accessibility__flex
+    .accessibility__text__flex
+    .accessibility__title
+    p {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__footer
+    .content__flex
+    .accessibility__flex
+    .accessibility__text__flex
+    .accessibility__title
+    p {
+    font-size: 1rem;
+  }
+}
+.activity__container
+  .activity__container__left
+  .activity__container__footer
+  .content__flex
+  .accessibility__flex
+  .accessibility__text__flex
+  .accessibility__value {
+  display: flex;
+  margin-top: -1.8rem;
+}
+@media screen and (max-width: 992px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__footer
+    .content__flex
+    .accessibility__flex
+    .accessibility__text__flex
+    .accessibility__value {
+    margin-top: -1.6rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__footer
+    .content__flex
+    .accessibility__flex
+    .accessibility__text__flex
+    .accessibility__value {
+    margin-top: -1.2rem;
+  }
+}
+.activity__container
+  .activity__container__left
+  .activity__container__footer
+  .content__flex
+  .accessibility__flex
+  .accessibility__text__flex
+  .accessibility__value
+  h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 0rem;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+@media screen and (max-width: 1440px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__footer
+    .content__flex
+    .accessibility__flex
+    .accessibility__text__flex
+    .accessibility__value
+    h4 {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__footer
+    .content__flex
+    .accessibility__flex
+    .accessibility__text__flex
+    .accessibility__value
+    h4 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__footer
+    .content__flex
+    .accessibility__flex
+    .accessibility__text__flex
+    .accessibility__value
+    h4 {
+    font-size: 1.8rem;
+  }
+}
+.activity__container
+  .activity__container__left
+  .activity__container__footer
+  .content__flex
+  .type__flex {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+@media screen and (max-width: 1440px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__footer
+    .content__flex
+    .type__flex {
+    gap: 0rem;
+  }
+}
+.activity__container
+  .activity__container__left
+  .activity__container__footer
+  .content__flex
+  .type__flex
+  .type__icon {
+  display: flex;
+  flex-direction: column;
+}
+.activity__container
+  .activity__container__left
+  .activity__container__footer
+  .content__flex
+  .type__flex
+  .type__icon
+  img {
+  width: 100%;
+}
+@media screen and (max-width: 1440px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__footer
+    .content__flex
+    .type__flex
+    .type__icon
+    img {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__footer
+    .content__flex
+    .type__flex
+    .type__icon
+    img {
+    width: 70%;
+  }
+}
+.activity__container
+  .activity__container__left
+  .activity__container__footer
+  .content__flex
+  .type__flex
+  .type__text__flex {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+.activity__container
+  .activity__container__left
+  .activity__container__footer
+  .content__flex
+  .type__flex
+  .type__text__flex
+  .type__title {
+  display: flex;
+}
+.activity__container
+  .activity__container__left
+  .activity__container__footer
+  .content__flex
+  .type__flex
+  .type__text__flex
+  .type__title
+  p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 0rem;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #b5b5c2;
+}
+@media screen and (max-width: 1440px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__footer
+    .content__flex
+    .type__flex
+    .type__text__flex
+    .type__title
+    p {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__footer
+    .content__flex
+    .type__flex
+    .type__text__flex
+    .type__title
+    p {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__footer
+    .content__flex
+    .type__flex
+    .type__text__flex
+    .type__title
+    p {
+    font-size: 1rem;
+  }
+}
+.activity__container
+  .activity__container__left
+  .activity__container__footer
+  .content__flex
+  .type__flex
+  .type__text__flex
+  .type__value {
+  display: flex;
+  margin-top: -1.8rem;
+}
+@media screen and (max-width: 992px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__footer
+    .content__flex
+    .type__flex
+    .type__text__flex
+    .type__value {
+    margin-top: -1.6rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__footer
+    .content__flex
+    .type__flex
+    .type__text__flex
+    .type__value {
+    margin-top: -1.2rem;
+  }
+}
+.activity__container
+  .activity__container__left
+  .activity__container__footer
+  .content__flex
+  .type__flex
+  .type__text__flex
+  .type__value
+  h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 0rem;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+@media screen and (max-width: 1440px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__footer
+    .content__flex
+    .type__flex
+    .type__text__flex
+    .type__value
+    h4 {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__footer
+    .content__flex
+    .type__flex
+    .type__text__flex
+    .type__value
+    h4 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .activity__container
+    .activity__container__left
+    .activity__container__footer
+    .content__flex
+    .type__flex
+    .type__text__flex
+    .type__value
+    h4 {
+    font-size: 1.8rem;
+  }
+}
+.activity__container .activity__container__right {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: flex-start;
+  justify-content: space-between;
+  width: 50%;
+}
+@media screen and (max-width: 768px) {
+  .activity__container .activity__container__right {
+    width: 100%;
+  }
+}
+.activity__container
+  .activity__container__right
+  .activity__container__right__header {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  align-items: flex-end;
+  margin: 7.2rem 9.2rem 0rem 0rem;
+}
+@media screen and (max-width: 1440px) {
+  .activity__container
+    .activity__container__right
+    .activity__container__right__header {
+    margin: 6.4rem 8rem 0rem 0rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .activity__container
+    .activity__container__right
+    .activity__container__right__header {
+    margin: 6rem 7.2rem 0rem 0rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .activity__container
+    .activity__container__right
+    .activity__container__right__header {
+    margin: 4rem 4rem 0rem 0rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .activity__container
+    .activity__container__right
+    .activity__container__right__header {
+    margin: 2rem 2rem 0rem 0rem;
+  }
+}
+.activity__container
+  .activity__container__right
+  .activity__container__right__header
+  .price__title {
+  display: flex;
+}
+.activity__container
+  .activity__container__right
+  .activity__container__right__header
+  .price__title
+  h4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 0rem;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #9497a8;
+}
+@media screen and (max-width: 1440px) {
+  .activity__container
+    .activity__container__right
+    .activity__container__right__header
+    .price__title
+    h4 {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .activity__container
+    .activity__container__right
+    .activity__container__right__header
+    .price__title
+    h4 {
+    font-size: 1.6rem;
+  }
+}
+.activity__container
+  .activity__container__right
+  .activity__container__right__header
+  .price__value {
+  display: flex;
+  margin-top: -2rem;
+}
+.activity__container
+  .activity__container__right
+  .activity__container__right__header
+  .price__value
+  h4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 0rem;
+  /* identical to box height, or 200% */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #000000;
+}
+@media screen and (max-width: 1440px) {
+  .activity__container
+    .activity__container__right
+    .activity__container__right__header
+    .price__value
+    h4 {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .activity__container
+    .activity__container__right
+    .activity__container__right__header
+    .price__value
+    h4 {
+    font-size: 1.6rem;
+  }
+}
+.activity__container
+  .activity__container__right
+  .active__container__right__image {
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-end;
+}
+@media screen and (max-width: 768px) {
+  .activity__container
+    .activity__container__right
+    .active__container__right__image {
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .activity__container
+    .activity__container__right
+    .active__container__right__image {
+    margin-top: 2rem;
+  }
+}
