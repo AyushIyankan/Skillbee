@@ -1,6 +1,9 @@
 ## Static Template Website Script Generator
 This is a simple script that generates 10 static HTML pages.
 
+## Lighthouse Score 
+
+
 ## Installation and Usage
 
 To generate the static HTML pages, run the following command:
@@ -17,7 +20,7 @@ To generate the static HTML pages, run the following command:
    ```js
    npm start
    ```
-4. You can see html files generated under ./src/pages. On each run, script will generate 10unique html files.
+4. You can see html files generated under ./src/pages. On each run, script will generate 10 unique html files.
 5. Host the pages to github pages and destination url will be of form: https://<username>.github.io/<reponame>/src/pages/<filename.html>
 
 ## Access Dewstination url's
