@@ -5,10 +5,10 @@ const { describe, it } = require("node:test");
 const { readdir } = require("fs/promises");
 const { expect } = require("chai");
 
-//If number of static pages not equal to 10 generate till it reaches 10
+// Define required pages
 let requiredPages = 10;
 
-//API URL
+// API URL
 const apiUrl = "https://www.boredapi.com/api/activity";
 
 // Function to get the data from the API
