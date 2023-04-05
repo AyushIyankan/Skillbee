@@ -3,9 +3,11 @@ This is a simple script that generates 10 unique static HTML pages.
 
 ## Desktop preview 
 ![image](https://user-images.githubusercontent.com/75990868/229975686-9006d444-c465-404a-92c6-e9f9a3da777f.png)
+<br>
 
 ## Mobile preview 
 ![image](https://user-images.githubusercontent.com/75990868/229975885-100b2eeb-b4ce-4fe7-bd49-268aab059c5f.png)
+<br>
 
 ## Lighthouse Score 
 ![lighthouse](https://user-images.githubusercontent.com/75990868/229908171-9fed23d4-0191-443b-a482-270d85edcfb1.png)
