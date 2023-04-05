@@ -21,9 +21,9 @@ To generate the static HTML pages, run the following command:
    npm start
    ```
 4. You can see html files generated under ./src/pages. On each run, script will generate 10 unique html files.
-5. Host the pages to github pages and destination url will be of form: https://<username>.github.io/<reponame>/src/pages/<filename.html>
+5. Host the pages to github pages and destination url will be of form: https://username.github.io/reponame/src/pages/<filename.html>
 
-## Access Dewstination url's
+## Access Destination url's
 https://ayushiyankan.github.io/Skillbee/src/pages/<website-[{1 - 10}]>.html
 
 Hosted Links:<br>
