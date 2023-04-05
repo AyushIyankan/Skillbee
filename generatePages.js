@@ -84,7 +84,8 @@ while (iterator < requiredPages) {
     const link = activityData.link;
     const key = activityData.key;
     const accessibility = activityData.accessibility;
-    const filename = `website-${fileIndex++}.html`;
+//     const filename = `page-${activity.toLowerCase().split(" ").join("-")}.html`; // geenerate unique pages and don't overwrite existing file.
+    const filename = `website-${fileIndex++}.html`; // overwrite existing files and then generate unique pages
 
     // Write page from template onto '../src/pages'
     try {
