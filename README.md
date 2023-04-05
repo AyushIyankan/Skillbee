@@ -1,5 +1,5 @@
 ## Static Template Website Script Generator
-This is a simple script that generates 10 static HTML pages.
+This is a simple script that generates 10 uniq static HTML pages.
 
 ## Lighthouse Score 
 ![lighthouse](https://user-images.githubusercontent.com/75990868/229908171-9fed23d4-0191-443b-a482-270d85edcfb1.png)
