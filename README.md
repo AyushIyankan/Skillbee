@@ -30,9 +30,8 @@ To generate the static HTML pages, run the following command:
    ```
 4. You can see html files generated under ./src/pages. On each run, script will generate 10 unique html files.
 5. Host the pages to github pages and destination url will be of form: 
-   ```text
 https://username.github.io/reponame/src/pages/<filename.html>
-   ```
+
 
 ## Help and troubleshooting
 1. numberOfPages is defined in script, currently the script generates 10 unique web pages but under name website-i.html where i ranges from 1 to 10. In case you need to change the number of unique pages generated everytime just change the variable value.
