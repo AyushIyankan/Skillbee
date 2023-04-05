@@ -14,7 +14,7 @@
     "nodemon": "^2.0.22"
   },
   "scripts": {
-    "start": "nodemon generatePages",
+    "start": "node generatePages",
     "watch:scss": "node-sass -w src/styles/page.scss src/styles/page.css"
   },
   "keywords": [],
