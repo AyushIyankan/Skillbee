@@ -12,6 +12,12 @@ This is a simple script that generates 10 unique static HTML pages.
 ## Lighthouse Score 
 ![lighthouse](https://user-images.githubusercontent.com/75990868/229908171-9fed23d4-0191-443b-a482-270d85edcfb1.png)
 
+## Prerequisites
+
+1. Node.js (v14.0 and above)
+2. Node Package Manager (npm v8.0 and above)
+
+
 ## Installation and Usage
 
 To generate the static HTML pages, run the following command:
